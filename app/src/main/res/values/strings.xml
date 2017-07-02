@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JsonTest</string>
+    <string name="fetch_connection">Fetch Connection</string>
+</resources>
