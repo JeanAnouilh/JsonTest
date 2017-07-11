@@ -364,7 +364,7 @@ public class MainActivity extends AppCompatActivity {
 
             try {
                 // Construct the URL for the Nervousnet Hive query
-                URL url = new URL("http://192.168.0.220:9200/projects/nervousnetTwo/tasks/nervousnetTwo-record/assignments"); //projects/nervousnetTwo/tasks/nervousnettwo-record/assignments
+                URL url = new URL("http://192.168.0.220:9200/projects/nervousnetTwo/tasks/record/assignments"); //projects/nervousnetTwo/tasks/nervousnettwo-record/assignments
 
                 // Create the request to OpenWeatherMap, and open the connection
                 urlConnection = (HttpURLConnection) url.openConnection();
